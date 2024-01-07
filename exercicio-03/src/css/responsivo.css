@@ -1,33 +1,54 @@
-@media(max-width: 650px){
-    .header{
-        flex-direction: column;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
 
-    .logo h1{
-        font-size: 4rem;
-    }
-    
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+}
 
-    .menu{
-        flex-direction: column;
-        margin-top: 50px;
-    }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .menu li {
-        padding: 33px 0;
-    }
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 47px;
+    margin-bottom: 100px;
+}
 
-    .menu li:last-child{
-        margin-bottom: 1rem;
-    }
+.log h1{
+    font-size: 40px;
+    font-weight: 800;
+}
 
-    .menu li a{
-        font-size: 4rem;
-        padding: 17px 40px
-    }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
 
-    .menu li a.btn{
-        font-size: 1.8rem;
-        padding: 15px 23px;
-    }
+.menu a{
+    font-size: 40px;
+    font-weight: 400;
+    padding: 17px 38px;
+}
+
+.menu a:hover{
+    color: #ffffff;
+    background-color: #5cc242;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #5cc242;
+    border-radius: 8px;
 }
